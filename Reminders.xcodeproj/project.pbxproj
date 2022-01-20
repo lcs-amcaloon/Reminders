@@ -16,6 +16,8 @@
 		CEDE17B02799C37E009175E0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE17AF2799C37E009175E0 /* Task.swift */; };
 		CEDE17B22799C3E9009175E0 /*  TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE17B12799C3E9009175E0 /*  TaskPriority.swift */; };
 		CEDE17B42799C453009175E0 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE17B32799C453009175E0 /* TaskStore.swift */; };
+		CEDE17B62799CDE4009175E0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE17B52799CDE4009175E0 /* TaskCell.swift */; };
+		CEDE17B72799CDE4009175E0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE17B52799CDE4009175E0 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		CEDE17AF2799C37E009175E0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CEDE17B12799C3E9009175E0 /*  TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TaskPriority.swift"; sourceTree = "<group>"; };
 		CEDE17B32799C453009175E0 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		CEDE17B52799CDE4009175E0 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CEDE178F2799C297009175E0 /* ContentView.swift */,
+				CEDE17B52799CDE4009175E0 /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +209,7 @@
 				CEDE17A02799C29B009175E0 /* ContentView.swift in Sources */,
 				CEDE17B02799C37E009175E0 /* Task.swift in Sources */,
 				CEDE179E2799C29B009175E0 /* RemindersApp.swift in Sources */,
+				CEDE17B62799CDE4009175E0 /* TaskCell.swift in Sources */,
 				CEDE17B22799C3E9009175E0 /*  TaskPriority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDE17A12799C29B009175E0 /* ContentView.swift in Sources */,
+				CEDE17B72799CDE4009175E0 /* TaskCell.swift in Sources */,
 				CEDE179F2799C29B009175E0 /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
