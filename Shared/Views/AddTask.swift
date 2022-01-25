@@ -39,6 +39,10 @@ struct AddTask: View {
                     Button("Save") {
                         saveTask()
                     }
+                    // The button is disbaled, and therfore cannot be
+                    // pressed, when the descriptiuon of the task is empty.
+                    // This prevents the user from saving an empty task.
+                    .disabled(description.isEmpty)
                 }
                 
                 ToolbarItem(placement: .cancellationAction) {
