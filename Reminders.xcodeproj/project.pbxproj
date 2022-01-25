@@ -54,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE96B79427A03634004BA27A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE17B32799C453009175E0 /* TaskStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CEDE17882799C297009175E0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +76,7 @@
 			children = (
 				CEDE178E2799C297009175E0 /* RemindersApp.swift */,
 				CEDE17AE2799C2D0009175E0 /* Model */,
+				CE96B79427A03634004BA27A /* ViewModels */,
 				CEDE17AD2799C2C2009175E0 /* Views */,
 				CEDE17902799C29B009175E0 /* Assets.xcassets */,
 			);
@@ -106,7 +115,6 @@
 			children = (
 				CEDE17AF2799C37E009175E0 /* Task.swift */,
 				CEDE17B12799C3E9009175E0 /*  TaskPriority.swift */,
-				CEDE17B32799C453009175E0 /* TaskStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
