@@ -33,6 +33,6 @@ class TaskStore: ObservableObject {
         tasks.move(fromOffsets: source, toOffset: destination)
     }
     
-}
+} 
 
 var testStore = TaskStore(tasks: testData)
